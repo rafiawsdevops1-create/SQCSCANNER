@@ -35,6 +35,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.10.1</version>
             </plugin>
+         <properties>
+         <maven.project.sourceRoots.warningsDisabled>true</maven.project.sourceRoots.warningsDisabled>
+         </properties>
 
             <!-- Surefire plugin for test execution -->
             <plugin>
