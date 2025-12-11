@@ -50,8 +50,8 @@ jobs:
     - name: SonarCloud Code Coverage + Analysis
       run: |
         mvn -B verify sonar:sonar \
-          -Dsonar.projectKey=sonar-demo-org-nov-2025_sonar-demo-org-nov-2025-project \
-          -Dsonar.organization=sonar-demo-org-nov-20253 \
+          -Dsonar.projectKey=SonarQubeOrganization \
+          -Dsonar.organization=sonarqubeorganization-1 \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.token=${{ secrets.SONAR_TOKEN }}
       env:
